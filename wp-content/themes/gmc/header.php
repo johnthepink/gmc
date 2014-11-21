@@ -29,4 +29,6 @@
 
 		<?php if(is_front_page()): ?>
 			<?php require_once('includes/hero-home.php'); ?>
+		<?php elseif(is_page('campaign')): ?>
+			<?php require_once('includes/hero-campaign.php'); ?>
 		<?php endif; ?>

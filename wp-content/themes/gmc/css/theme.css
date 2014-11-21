@@ -1108,6 +1108,10 @@ a:focus, button:focus {
   margin-top:420px;
 }
 
+.extended-bullets {
+  margin-top: 55px;
+}
+
 
 #home #pricing {
   -webkit-font-smoothing: antialiased;
