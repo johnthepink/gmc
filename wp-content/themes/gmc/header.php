@@ -28,5 +28,5 @@
 		<?php require_once('includes/header.php'); ?>
 
 		<?php if(is_front_page()): ?>
-			<?php require_once('includes/hero.php'); ?>
+			<?php require_once('includes/hero-home.php'); ?>
 		<?php endif; ?>
