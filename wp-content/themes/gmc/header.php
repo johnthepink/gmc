@@ -23,7 +23,7 @@
         </script>
 
 	</head>
-	<body id="home2" <?php body_class(); ?>>
+	<body id="home" <?php body_class(); ?>>
 
 		<?php require_once('includes/header.php'); ?>
 
