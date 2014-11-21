@@ -33,4 +33,6 @@
 			<?php require_once('includes/hero-campaign.php'); ?>
 		<?php elseif(is_page('outcomes')): ?>
 			<?php require_once('includes/hero-outcomes.php'); ?>
+		<?php elseif(is_page('who-we-are')): ?>
+			<?php require_once('includes/hero-who-we-are.php'); ?>
 		<?php endif; ?>
