@@ -1087,19 +1087,25 @@ a:focus, button:focus {
     #home #features {
       margin-top: 0; } }
 
-#home #features #between-container{
+#between-container{
   height: 420px;
   width: 100%;
   display: table;
   background: black;
+  position: absolute;
+  left:0px;
 }
 
-#home #features #between-container #between {
+#between-container #between {
   color: #fff;
   display:table-cell;
   height: 100%;
   vertical-align: middle;
   text-align: center;
+}
+
+.container.between-after{
+  margin-top:420px;
 }
 
 
