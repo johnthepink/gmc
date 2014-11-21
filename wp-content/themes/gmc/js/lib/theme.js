@@ -24,6 +24,8 @@ $(function () {
 	        }
 	    });
 	}
+
+	$('#menu-primary-navigation li:last a').addClass('thickbox');
 });
 
 window.utils = {

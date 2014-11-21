@@ -6,7 +6,7 @@
 			Greer Middle College
 		</h1>
 		<div class="cta animated fadeInDown">
-			<a href="signup.html" class="button">Donate Now</a>
+			<?php echo do_shortcode('[wp-stripe]'); ?>
 		</div>
 	</div>
 </div>
