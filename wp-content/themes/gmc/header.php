@@ -31,4 +31,6 @@
 			<?php require_once('includes/hero-home.php'); ?>
 		<?php elseif(is_page('campaign')): ?>
 			<?php require_once('includes/hero-campaign.php'); ?>
+		<?php elseif(is_page('outcomes')): ?>
+			<?php require_once('includes/hero-outcomes.php'); ?>
 		<?php endif; ?>
