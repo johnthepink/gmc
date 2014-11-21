@@ -1086,6 +1086,23 @@ a:focus, button:focus {
   @media (max-width: 767px) {
     #home #features {
       margin-top: 0; } }
+
+#home #features #between-container{
+  height: 420px;
+  width: 100%;
+  display: table;
+  background: black;
+}
+
+#home #features #between-container #between {
+  color: #fff;
+  display:table-cell;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
 #home #pricing {
   -webkit-font-smoothing: antialiased;
   border-top: 1px solid #EAEAEA;
