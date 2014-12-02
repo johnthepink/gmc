@@ -119,6 +119,9 @@ function html5blank_conditional_scripts()
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
+    wp_register_style('fonts', 'http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic|Raleway:400,100,200,300,500,600,700,800,900', array(), '1.0', 'all');
+    wp_enqueue_style('fonts'); // Engqueue ueueue it
+    
     wp_register_style('theme', get_template_directory_uri() . '/css/theme.css', array(), '1.0', 'all');
     wp_enqueue_style('theme'); // Enqueue it!
 
