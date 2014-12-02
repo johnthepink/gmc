@@ -934,15 +934,14 @@ a:focus, button:focus {
     position: relative;
     z-index: 33; }
   #home #hero h1.hero-text {
-    font-family: "Lato", "Helvetica Neue", Arial;
-    line-height: 52px;
+    font-family: 'Raleway', serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: #fff;
+    line-height: 56px;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 2px rbga(0,0,0,0.50);
     text-align: center;
-    font-size: 37px;
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: .3px;
-    color: #FFF;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     -webkit-animation-duration: 1s; }
     @media (max-width: 767px) {
       #home #hero h1.hero-text {
