@@ -78,37 +78,39 @@ function wp_stripe_form() {
 				</div>
 				<div class="stripe-row-right">
 					<label for="card-expiry" class="stripe-expiry">Expiry</label>
-					<select id="card-expiry" class="card-expiry-month">
-						<option value="1">01</option>
-						<option value="2">02</option>
-						<option value="3">03</option>
-						<option value="4">04</option>
-						<option value="5">05</option>
-						<option value="6">06</option>
-						<option value="7">07</option>
-						<option value="8">08</option>
-						<option value="9">09</option>
-						<option value="10">10</option>
-						<option value="11">11</option>
-						<option value="12">12</option>
-					</select>
-					<span></span>
+                    <div>
+                        <select id="card-expiry" class="card-expiry-month">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <span></span>
 
-					<select class="card-expiry-year">
+                        <select class="card-expiry-year">
 
-						<?php $year = date( 'Y',time() );
-						$num = 1;
+                            <?php $year = date( 'Y',time() );
+                            $num = 1;
 
-						while ( $num <= 7 ) { ?>
+                            while ( $num <= 7 ) { ?>
 
-							<option value="<?php echo esc_attr( $year ); ?>"><?php echo esc_html( $year ); ?></option>
+                                <option value="<?php echo esc_attr( $year ); ?>"><?php echo esc_html( $year ); ?></option>
 
-							<?php
-							$year++;
-							$num++;
-						} ?>
+                                <?php
+                                $year++;
+                                $num++;
+                            } ?>
 
-					</select>
+                        </select>
+                    </div>
 				</div>
 
 			</div>
@@ -145,7 +147,7 @@ function wp_stripe_form() {
 
 	</div>
 
-	<div class="wp-stripe-poweredby"><?php printf( __( 'Payments powered by %s. No card information is stored on this server.', 'wp-stripe' ), '<a href="http://wordpress.org/extend/plugins/wp-stripe" target="_blank">WP-Stripe</a>' ); ?></div>
+	<div class="wp-stripe-poweredby"><?php printf( __( 'Payments powered by %s. No card information is stored on this server.', 'wp-stripe' ), 'WP-Stripe' ); ?></div>
 
 	<?php $output = apply_filters( 'wp_stripe_filter_form', ob_get_contents() );
 
