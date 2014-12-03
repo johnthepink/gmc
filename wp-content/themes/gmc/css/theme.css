@@ -485,11 +485,14 @@ a:focus, button:focus {
     display: inline-block; }
     @media (max-width: 767px) {
       .navbar.blue .navbar-collapse .navbar-nav > li {
-        display: block; } }
+        display: block;
+         } }
     .navbar.blue .navbar-collapse .navbar-nav > li.active > a {
       background: none;
-      color: #b5cde5; }
+      color: #97c0e6; }
     .navbar.blue .navbar-collapse .navbar-nav > li > a {
+      font-family: 'Raleway', serif;
+        font-weight: 800;
       padding: 25px 20px;
       color: #fff;
       z-index: 1001;
@@ -498,6 +501,12 @@ a:focus, button:focus {
       -ms-transition: color 0.2s linear;
       -o-transition: color 0.2s linear;
       transition: color 0.2s linear; }
+      #menu-item-53 a {
+        border: 2px solid white;
+        border-radius: 4px;
+        padding: 10px 20px;
+        margin: 15px 0;
+      }
       .navbar.blue .navbar-collapse .navbar-nav > li > a.signup {
         border: 1px solid #CED7DF;
         border-radius: 5px;
@@ -516,7 +525,7 @@ a:focus, button:focus {
         position: relative;
         top: -1px; }
       .navbar.blue .navbar-collapse .navbar-nav > li > a:hover {
-        color: #b5cde5; }
+        color: #97c0e6; }
         @media (max-width: 767px) {
           .navbar.blue .navbar-collapse .navbar-nav > li > a:hover {
             color: #fff; } }
