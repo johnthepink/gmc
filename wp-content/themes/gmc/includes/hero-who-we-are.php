@@ -1,4 +1,4 @@
-<div id="hero">
+<div id="hero" class="who-we-are">
 	<div class="container">
 		<h1 class="hero-text animated fadeInDown">
 			The Education That Gives<br>

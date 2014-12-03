@@ -907,8 +907,8 @@ a:focus, button:focus {
 #home #hero {
   overflow: hidden;
   background: #4B4848;
-  background-size: cover;
   background-image: url(../img/home/hero-img.png);
+  background-size: cover;
   /* These are some ready-to-use backgrounds you can test out by uncommenting them */
   /*background-image: url("../img/bg2.png");*/
   /*background-image: url("../img/bg3.png");*/
@@ -947,6 +947,22 @@ a:focus, button:focus {
     background: rgba(6, 13, 32, 0.15);
     background: rgba(13, 37, 102, 0.24);
     background: rgba(32, 54, 114, 0.29); }*/
+  #home #hero.home {
+    background-image: url(../img/home/hero-img.png);
+    background-size: cover;
+  }
+  #home #hero.campaign {
+    background-image: url(../img/campaign/hero-img-campaign.png);
+    background-size: cover;
+  }
+  #home #hero.outcomes {
+    background-image: url(../img/outcomes/hero-img-outcomes.png);
+    background-size: cover;
+  }
+  #home #hero.who-we-are {
+    background-image: url(../img/about/hero-img-about.png);
+    background-size: cover;
+  }
   #wp-stripe-types{ display: none !important;}
   #home #hero .container {
     position: relative;

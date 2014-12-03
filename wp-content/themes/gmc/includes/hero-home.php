@@ -1,4 +1,4 @@
-<div id="hero">
+<div id="hero" class="home">
 	<div class="container">
 		<h1 class="hero-text animated fadeInDown">
 			Partner With Us To<br>
