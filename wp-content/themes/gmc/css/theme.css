@@ -950,18 +950,22 @@ a:focus, button:focus {
   #home #hero.home {
     background-image: url(../img/home/hero-img.png);
     background-size: cover;
+    padding-top:150px;
   }
   #home #hero.campaign {
     background-image: url(../img/campaign/hero-img-campaign.png);
     background-size: cover;
+    padding-top: 250px;
   }
   #home #hero.outcomes {
     background-image: url(../img/outcomes/hero-img-outcomes.png);
     background-size: cover;
+    padding-top: 210px;
   }
   #home #hero.who-we-are {
     background-image: url(../img/about/hero-img-about.png);
     background-size: cover;
+    padding-top:210px;
   }
   #wp-stripe-types{ display: none !important;}
   #home #hero .container {
