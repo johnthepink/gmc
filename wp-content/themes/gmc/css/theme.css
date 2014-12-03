@@ -5,6 +5,14 @@
 *:focus {
   outline: 0; }
 
+h4 {
+  font-family: 'Raleway', serif;
+  color: #24254d;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
 .button {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -1101,7 +1109,7 @@ a:focus, button:focus {
       @media (max-width: 991px) {
         #home #features .feature .info h4 {
           text-align: center; } }
-    #home #features .feature .info p, #home #features .info ul li {
+    #home #features .feature .info p, #home #features ul li {
       font-family: 'Raleway', serif;
       font-weight: 500;
       color: #656682;
@@ -1109,7 +1117,7 @@ a:focus, button:focus {
       margin-top: 20px;
       line-height: 26px;
       width: 83%;}
-      #home #features .info ul li {
+      #home #features ul li {
         margin-top: 10px;
       }
       @media (max-width: 991px) {
