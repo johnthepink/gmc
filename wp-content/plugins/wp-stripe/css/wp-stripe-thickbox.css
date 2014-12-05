@@ -7,6 +7,17 @@
 	color: #333333;
 }
 
+@media (max-width: 767px) {
+    #TB_window {
+        width: 100% !important;
+        margin-left: 0 !important;
+        left: 0px !important;
+    }
+    #TB_window iframe{
+        width: 100% !important;
+    }
+}
+
 #TB_secondLine {
 	font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color:#666666;

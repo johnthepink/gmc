@@ -4,6 +4,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,900,800,600,700,500,300,200,100);
 
+body {
+    margin: 0;
+}
+
 #wp-stripe-wrap {
     display:block;
     padding:10px;
@@ -11,6 +15,22 @@
     width: 400px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
+
+@media (max-width: 767px) {
+    #wp-stripe-wrap {
+        width: 100% !important;
+        padding:0;
+    }
+    form#wp-stripe-payment-form {
+        padding: 10px;
+    }
+    .stripe-row {
+        padding:5px 0 !important;
+    }
+}
+
+
+        
 
 /* Payment Form Link */
 
@@ -128,6 +148,13 @@ form#wp-stripe-payment-form .stripe-submit-button {
     left: 8px;
 }
 
+@media (max-width: 767px ) {
+    form#wp-stripe-payment-form .stripe-submit-button {
+        left: 0px;
+        width: 100%;
+    }
+}
+
 #wp-stripe-types {
         display:block;
         width:256px;
@@ -220,6 +247,13 @@ form#wp-stripe-payment-form .stripe-row-right {
         padding:0 20px;
 }
 
+@media (max-width: 767px ) {
+    .wp-stripe-poweredby {
+        padding: 10px;
+    }
+}
+
+
 .wp-stripe-poweredby a {
         color:#28a0e5;
         text-decoration: none;        
@@ -285,6 +319,13 @@ form#wp-stripe-payment-form input {
         position:relative;
         width:338px;
         background-color:#fff;
+}
+
+@media (max-width: 767px ) {
+    form#wp-stripe-payment-form textarea,
+    form#wp-stripe-payment-form input {
+        width: 100%;
+    }
 }
 
 form#wp-stripe-payment-form .wp-stripe-meta label {
@@ -357,6 +398,15 @@ form#wp-stripe-payment-form .uneditable-input {
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+    form#wp-stripe-payment-form input,
+    form#wp-stripe-payment-form textarea,
+    form#wp-stripe-payment-form .uneditable-input {
+        padding: 8px 0;
+        text-indent: 8px;
+    }
 }
 
 form#wp-stripe-payment-form input[type=checkbox], form#wp-stripe-payment-form input[type=radio] {
