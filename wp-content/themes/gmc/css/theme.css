@@ -504,7 +504,8 @@ a:focus, button:focus {
     font-weight: bold;
     font-size: 30px;
     font-family: "Lato", "Helvetica Neue", Arial;
-    padding-top: 8px; }
+    padding-top: 8px;
+    height: 70px; }
     .navbar.blue .navbar-header .navbar-brand img {
       height: 55px;
       width: 55px;
@@ -514,7 +515,10 @@ a:focus, button:focus {
         color: #fff;
         font-size: 20px; } }
   .navbar.blue .navbar-header .navbar-toggle {
-    margin-top: 17px; }
+    margin-top: 17px;
+    border:none; }
+    .navbar.blue .navbar-header .navbar-toggle:hover, .navbar.blue .navbar-header .navbar-toggle:focus {
+      background: transparent; }
   @media (min-width: 768px) {
     .navbar.blue .navbar-collapse {
       text-align: center; } }
@@ -526,6 +530,10 @@ a:focus, button:focus {
     float: none;
     display: inline-block; }
     @media (max-width: 767px) {
+      .navbar.blue .navbar-collapse{
+        border: none;
+        box-shadow: none;
+      }
       .navbar.blue .navbar-collapse .navbar-nav > li {
         display: block;
          } }
@@ -557,6 +565,12 @@ a:focus, button:focus {
       #menu-item-53 a:hover {
         color:rgba(8,43,77,.9);
         background:white;
+      }
+      @media (max-width: 767px) {
+        #menu-item-53 a {
+          margin: 0 20px;
+          text-align: center;
+        }
       }
       .navbar.blue .navbar-collapse .navbar-nav > li > a.signup {
         border: 1px solid #CED7DF;
@@ -1074,6 +1088,7 @@ a:focus, button:focus {
         color: #fff;
         padding: 4px 20px;
         height: 40px;
+        text-shadow: none;
       }
       #home #hero .cta a span:hover {
         background: rgb(182,211,236);
@@ -1160,6 +1175,9 @@ a:focus, button:focus {
           text-align: center;
           width: 100%;
           font-size: 14px; } }
+        #home #features .feature .info p.giving-title {
+          text-align: left;
+        }
     @media (max-width: 991px) {
       #home #features .feature .image img {
         margin: 0 auto !important;
