@@ -492,11 +492,10 @@ a:focus, button:focus {
   border-radius: 0;
   border: 0;
   z-index: 999;
-  -webkit-font-smoothing: antialiased; }
-  @media (min-width: 768px) {
-    .navbar.blue {
-      background: rgba(8,43,77,.9);
-      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.75); } }
+  -webkit-font-smoothing: antialiased;
+  background: rgba(8,43,77,.9);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.75);
+ }
   @media (min-width: 1200px) {
     .navbar.blue .container {
       width: 1000px; } }
