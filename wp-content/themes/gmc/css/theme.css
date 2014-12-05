@@ -507,8 +507,8 @@ a:focus, button:focus {
     padding-top: 8px;
     height: 70px; }
     .navbar.blue .navbar-header .navbar-brand img {
-      height: 55px;
-      width: 55px;
+      height: 60px;
+      width: 52px;
     }
     @media (max-width: 767px) {
       .navbar.blue .navbar-header .navbar-brand {
