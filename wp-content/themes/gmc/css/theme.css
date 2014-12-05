@@ -1213,8 +1213,10 @@ a:focus, button:focus {
   margin-top:420px;
 }
 
-.extended-bullets {
-  margin-top: 55px;
+@media (min-width: 992px){
+  .extended-bullets {
+    margin-top: 55px;
+  }
 }
 
 
