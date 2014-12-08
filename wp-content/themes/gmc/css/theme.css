@@ -49,6 +49,9 @@ body p {
   margin-top: 20px;
   line-height: 26px;
 }
+body a {
+  color: #97c0e6;
+}
 .button {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -959,6 +962,9 @@ a:focus, button:focus {
       font-size: 13px;
       text-align: center;
       color: #fff; }
+  #footer-blue a {
+    color: #97c0e6;
+  }
 
 /* pages */
 #home #hero {

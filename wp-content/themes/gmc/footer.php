@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row credits">
 				<div class="col-md-12">
-					Copyright © <?php echo date("Y"); ?>. Greer Middle College
+					Copyright © <?php echo date("Y"); ?>. <a href="http://greermiddlecollege.org">Greer Middle College</a>
 				</div>
 			</div>
 		</div>
