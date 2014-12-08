@@ -26,6 +26,7 @@ $(function () {
 	}
 
 	$('#menu-primary-navigation li:last a').addClass('thickbox');
+	$('#menu-primary-navigation a[title="School"]').attr("target", "_blank");
 });
 
 window.utils = {
